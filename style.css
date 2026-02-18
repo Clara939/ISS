@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('image/iss_back.jpg');
+    color: white;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    display: inline-block;
+    vertical-align: top;
+}
