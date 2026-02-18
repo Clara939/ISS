@@ -6,7 +6,7 @@ let pLon = document.createElement('p');
 pLon.id='iss-lon';
 document.body.append(pLon)
 
-let map = L.map('map').setView([51.505, -0.09], 2);
+let map = L.map('map').setView([51.505, -0.09], 7);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -33,14 +33,14 @@ function positionIss() {
                 issMarker = L.marker(position, {
                     icon: L.icon({
                         iconUrl: 'image/iss.png',
-                        iconSize: [32,32],
+                        iconSize: [50,50],
                         iconAnchor: [16,32],
                         popupAnchor: [0, -32]
                     })
                 }).addTo(map);
             }
 
-            map.setView([latitude, longitude], 2)
+            map.setView([latitude, longitude], 3)
 
         })
 }
