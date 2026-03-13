@@ -62,4 +62,6 @@ fetch('https://api.wheretheiss.at/v1/satellites/25544')
 
 <div align="center"> <img src="https://img.shields.io/badge/Tech-API%20Leaflet%20VanillaJS-0D1B2A?style=flat&logo=leaflet&logoColor=white"/> <img src="https://img.shields.io/badge/Live-%F0%9F%9A%80%20ISS-415A77?style=flat&logo=public-api&logoColor=white"/> </div>
 
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0D1B2A&height=100&section=footer&fontColor=FFFFFF"/> </p> ```
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1B2A&height=100&section=footer&fontColor=FFFFFF"/>
+</p> ```
