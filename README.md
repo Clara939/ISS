@@ -50,7 +50,8 @@ fetch('https://api.wheretheiss.at/v1/satellites/25544')
     // Update marker Leaflet
     issMarker.setLatLng([data.latitude, data.longitude]);
   });
-🎯 Skills démontrés
+```
+##🎯 **Skills démontrés**
 
     🌐 API REST fetch() + JSON parsing [web:93]
 
